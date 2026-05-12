@@ -33,16 +33,10 @@ export default function QuemSomos() {
               <div style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '6px' }}>📘 Autor Publicado</div>
               <div style={{ fontSize: '0.88rem', color: 'var(--navy)', fontWeight: 500, marginBottom: '10px', lineHeight: 1.4 }}>"Como Regularizar um Imóvel — Guia Completo e Atualizado"</div>
               <a href="https://www.amazon.com.br/Como-Regularizar-Im%C3%B3vel-Completo-Atualizado-ebook/dp/B0CZ7G1B5J" target="_blank" rel="noopener noreferrer"
-                style={{ fontSize: '0.78rem', color: 'var(--gold)', textDecoration: 'none', fontWeight: 500, display: 'block', marginBottom: '8px' }}
-                onMouseEnter={e => (e.currentTarget.style.textDecoration = 'underline')}
-                onMouseLeave={e => (e.currentTarget.style.textDecoration = 'none')}>
-                Disponível na Amazon →
-              </a>
-              <a href="https://livro-imovel-irregular.vercel.app/" target="_blank" rel="noopener noreferrer"
                 style={{ fontSize: '0.78rem', color: 'var(--gold)', textDecoration: 'none', fontWeight: 500, display: 'block' }}
                 onMouseEnter={e => (e.currentTarget.style.textDecoration = 'underline')}
                 onMouseLeave={e => (e.currentTarget.style.textDecoration = 'none')}>
-                Acesse o site do livro →
+                Disponível na Amazon →
               </a>
             </div>
           </div>
